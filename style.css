@@ -1,0 +1,98 @@
+
+/* Tampilan Dasar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f6f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #116b76;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+header img {
+    width: 100px;
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+/* Navigasi */
+nav {
+    background-color: #073f4d;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: rgb(35, 183, 181);
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f0bc67;
+}
+
+/* Konten Utama */
+main {
+    max-width: 1500px;
+    margin: 30px auto;
+    padding: 0 20px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+/* Section */
+section {
+    background-color: rgb(19, 168, 205);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px #000000;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+section h2 {
+    color: #0d2ee4;
+    text-align: center;
+    font-family: monospace;
+}
+
+section h3 {
+    color: #111176;
+}
+
+section p {
+    text-align: justify;
+    font-family: monospace;
+}
+
+/* Gambar */
+section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #073f4d;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
